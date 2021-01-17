@@ -6,11 +6,10 @@
 }
 
 /*Import fonts from Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     background: #588157;
     font-size: 40px;
     height: 100vh;
@@ -26,11 +25,11 @@ body{
     h1{
         margin: 1em 0;
         color: #588157;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
     }
     p{
         line-height: 1.7rem;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
         font-weight: lighter;
     }
     .left{
@@ -38,13 +37,13 @@ body{
       padding: 1em;
       p,h1{
           color:#588157;
-          font-family: 'Open Sans';
+          font-family: 'Open Sans', sans-serif;
       }
     }
 
     .right p{
        margin: 2em 0 1em; 
-       font-family: 'Open Sans';
+       font-family: 'Open Sans', sans-serif;
     }
     input, button{
         width: calc(100% - 3em);
