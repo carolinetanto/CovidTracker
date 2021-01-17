@@ -3,6 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
-
+    margin: 0;
+    font-family: 'Open Sans';
+    background: #588157;
+    font-size: 40px;
+    height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    .logo{
+        width: 120px;
+    }
+    h1{
+        margin: 1em 0;
+    }
+    p{
+        line-height: 1.7rem;
+    }
+    .left{
+      background: linear-gradient(160 deg, #787055 0%, #DAD7CD 100%);  
+      padding: 1em;
+    }
 }
 
