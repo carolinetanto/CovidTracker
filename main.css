@@ -13,7 +13,7 @@ body{
     width: 360px;
     height: 640px;
     background-color: #588157;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 .logo{
     position: absolute;
