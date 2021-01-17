@@ -26,20 +26,25 @@ body{
     h1{
         margin: 1em 0;
         color: #588157;
+        font-family: 'Open Sans';
     }
     p{
         line-height: 1.7rem;
+        font-family: 'Open Sans';
+        font-weight: lighter;
     }
     .left{
       background: linear-gradient(160 deg, #787055 0%, #DAD7CD 100%);  
       padding: 1em;
       p,h1{
           color:#588157;
+          font-family: 'Open Sans';
       }
     }
 
     .right p{
        margin: 2em 0 1em; 
+       font-family: 'Open Sans';
     }
     input, button{
         width: calc(100% - 3em);
