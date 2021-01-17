@@ -5,9 +5,17 @@
     box-sizing:border-box;
 }
 
+/*Import fonts from Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body{
-    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-family: 'Open Sans';
+    background: #588157;
+    font-size: 40px;
+    height: 100vh;
 }
+
 
 .container{
     margin: 0 auto;
