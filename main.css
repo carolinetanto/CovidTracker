@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background-color: #DAD7CD;
+    overflow: hidden;
+}

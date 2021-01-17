@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Log-In Page Styling */
+.log-in-container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background-color: #DAD7CD;
+    overflow: hidden;
+}
+.people{
+    position: absolute;
+    width: 360px;
+    height: 157px;
+    left: 0px;
+    top: 80px;
+}
+.introduction h4{
+    position: absolute;
+    width: 269px;
+    height: 25px;
+    left: 46px;
+    top: 225px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #787055;
+}
+.log-in .Email{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 320px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+.log-in .Password{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 392px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+.log-in button{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 502px;
+
+    background: #588157;
+    border-radius: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DAD7CD;
+}
+
+.log-in p{
+    position: absolute;
+    width: 317px;
+    height: 25px;
+    left: 22px;
+    top: 579px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #787055;
+}
+.log-in-container a{
+    text-decoration: none;
+    color: #787055;
+    font-weight:900;
+}
+/*Sign-Up Page Styling*/
+.sign-up-container{
+    position: relative;
+    width: 360px;
+    height: 1223px;
+    background-color: #DAD7CD;
+    overflow: hidden;
+}
+
+.sign-up-container a{
+    text-decoration: none;
+    color: #787055;
+    font-weight:900;
+}
+
+.sign-up .First-Name{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 320px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Last-Name{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 392px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Birthday{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 463px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Country{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 535px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Gender{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 607px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Email{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 741px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Password{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 813px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+
+.sign-up .Confirm-Password{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 885px;
+
+    background: #BFB9A4;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 0px 0px 15px;
+    color: #787055;
+}
+.sign-up button{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: 1098px;
+
+    background: #588157;
+    border-radius: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DAD7CD;
+}
+.sign-up p{
+    position: absolute;
+    width: 278px;
+    height: 25px;
+    left: 41px;
+    top: 1170px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #787055;
+}
+.sign-up p a{
+    text-decoration: none;
+    color: #787055;
+    font-weight:900;
+}

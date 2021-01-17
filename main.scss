@@ -17,6 +17,7 @@ body{
     }
     h1{
         margin: 1em 0;
+        color: #588157;
     }
     p{
         line-height: 1.7rem;
@@ -24,6 +25,26 @@ body{
     .left{
       background: linear-gradient(160 deg, #787055 0%, #DAD7CD 100%);  
       padding: 1em;
+      p,h1{
+          color:#588157;
+      }
     }
+
+    .right p{
+       margin: 2em 0 1em; 
+    }
+    
+}
+
+.decor1{
+    width: 100%;
+    margin: .5em auto 0;
+    text-align: center;
+    
+    .decor{
+        margin-top: 2em;
+        width: 3em;
+    }
+
 }
 
