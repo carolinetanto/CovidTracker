@@ -11,9 +11,9 @@ body{
 .main-container{
     position: relative;
     width: 360px;
-    height: 777px;
-
+    height: 640px;
     background-color: #588157;
+    overflow: hidden;
 }
 .logo{
     position: absolute;
@@ -21,10 +21,9 @@ body{
     height: 123px;
     left: 70px;
     top: 63px;
-background: url(WHYMASK (1).png);
 }
 .splash p{
-    position: absolute;
+position: absolute;
 width: 295px;
 height: 16px;
 left: 33px;
@@ -35,14 +34,12 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 16px;
-
+text-align: center;
 color: #DAD7CD;
 
 }
-.container{
 
-}
-.start-button{
+.start-button .button{
 position: absolute;
 width: 195px;
 height: 47px;
