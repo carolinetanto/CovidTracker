@@ -33,6 +33,21 @@ body{
     .right p{
        margin: 2em 0 1em; 
     }
+    input, button{
+        width: calc(100% - 3em);
+        padding: .5em;
+        font-size: 1.3rem;
+        outline: none;
+        margin: 1em;
+    }
+    button{
+        width: calc(100% - 2em);
+        margin: 0;
+        background: #588157;
+        color: #DAD7CD;
+        border: none;
+        cursor: pointer;
+    }
     
 }
 
