@@ -40,7 +40,7 @@ body{
 
     color: #787055;
 }
-.log-in .Email{
+.log-in .Country{
     position: absolute;
     width: 300px;
     height: 40px;
@@ -58,7 +58,7 @@ body{
     padding: 0px 0px 0px 15px;
     color: #787055;
 }
-.log-in .Password{
+.log-in .Location{
     position: absolute;
     width: 300px;
     height: 40px;
@@ -127,7 +127,7 @@ body{
     color: #787055;
     font-weight:900;
 }
-
+/*
 .sign-up .First-Name{
     position: absolute;
     width: 300px;
@@ -145,8 +145,8 @@ body{
     line-height: 25px;
     padding: 0px 0px 0px 15px;
     color: #787055;
-}
-
+}*/
+/*
 .sign-up .Last-Name{
     position: absolute;
     width: 300px;
@@ -164,8 +164,8 @@ body{
     line-height: 25px;
     padding: 0px 0px 0px 15px;
     color: #787055;
-}
-
+}*/
+/*
 .sign-up .Birthday{
     position: absolute;
     width: 300px;
@@ -183,7 +183,7 @@ body{
     line-height: 25px;
     padding: 0px 0px 0px 15px;
     color: #787055;
-}
+}*/
 
 .sign-up .Country{
     position: absolute;
@@ -203,7 +203,7 @@ body{
     padding: 0px 0px 0px 15px;
     color: #787055;
 }
-
+/*
 .sign-up .Gender{
     position: absolute;
     width: 300px;
@@ -221,9 +221,9 @@ body{
     line-height: 25px;
     padding: 0px 0px 0px 15px;
     color: #787055;
-}
+}*/
 
-.sign-up .Email{
+/*.sign-up .Country{
     position: absolute;
     width: 300px;
     height: 40px;
@@ -240,9 +240,9 @@ body{
     line-height: 25px;
     padding: 0px 0px 0px 15px;
     color: #787055;
-}
+}*/
 
-.sign-up .Password{
+.sign-up .Location{
     position: absolute;
     width: 300px;
     height: 40px;
@@ -261,7 +261,7 @@ body{
     color: #787055;
 }
 
-.sign-up .Confirm-Password{
+/*.sign-up .Confirm-Password{
     position: absolute;
     width: 300px;
     height: 40px;
@@ -295,7 +295,7 @@ body{
     font-size: 18px;
     line-height: 25px;
     color: #DAD7CD;
-}
+}*/
 .sign-up p{
     position: absolute;
     width: 278px;
