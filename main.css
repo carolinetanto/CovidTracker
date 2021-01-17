@@ -10,9 +10,56 @@ body{
 }
 
 .container{
-    position: relative;
-    width: 360px;
-    height: 640px;
-    background-color: #DAD7CD;
-    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    .logo{
+        width: 120px;
+    }
+    h1{
+        margin: 1em 0;
+        color: #588157;
+    }
+    p{
+        line-height: 1.7rem;
+    }
+    .left{
+      background: linear-gradient(160 deg, #787055 0%, #DAD7CD 100%);  
+      padding: 1em;
+      p,h1{
+          color:#588157;
+      }
+    }
+
+    .right p{
+       margin: 2em 0 1em; 
+    }
+    input, button{
+        width: calc(100% - 3em);
+        padding: .5em;
+        font-size: 1.3rem;
+        outline: none;
+        margin: 1em;
+    }
+    button{
+        width: calc(100% - 2em);
+        margin: 0;
+        background: #588157;
+        color: #DAD7CD;
+        border: none;
+        cursor: pointer;
+    }
+    
+}
+
+.decor1{
+    width: 100%;
+    margin: .5em auto 0;
+    text-align: center;
+    
+    .decor{
+        margin-top: 2em;
+        width: 3em;
+    }
+
+}
 }
