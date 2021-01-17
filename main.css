@@ -1,85 +1,115 @@
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing:border-box;
 }
 
-/*Import fonts from Google font*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #588157;
-    font-size: 20px;
-    height: 100vh;
 }
+/*First-page Page Styling*/
+.main-container{
+    position: relative;
+    width: 360px;
+    height: 777px;
 
+    background-color: #588157;
+}
+.logo{
+    position: absolute;
+    width: 220px;
+    height: 123px;
+    left: 70px;
+    top: 63px;
+background: url(WHYMASK (1).png);
+}
+.splash p{
+    position: absolute;
+width: 295px;
+height: 16px;
+left: 33px;
+top: 173px;
 
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+color: #DAD7CD;
+
+}
 .container{
-    margin: 0 auto;
-    text-align: center;
-    .logo{
-        width: 120px;
-    }
-    h1{
-        margin: 1em 0;
-        color: #588157;
-        font-family: 'Open Sans', sans-serif;
-    }
-    p{
-        line-height: 1.7rem;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
-    }
-    .left{
-      background: linear-gradient(160 deg, #787055 0%, #DAD7CD 100%);  
-      padding: 1em;
-      p,h1{
-          color:#588157;
-          font-family: 'Open Sans', sans-serif;
-      }
-    }
 
-    .right p{
-       margin: 2em 0 1em; 
-       font-family: 'Open Sans', sans-serif;
-    }
-    input, button{
-        width: calc(100% - 3em);
-        padding: .5em;
-        font-size: 1.3rem;
-        outline: none;
-        margin: 1em;
-    }
-    button{
-        width: calc(100% - 2em);
-        margin: 0;
-        background: #588157;
-        color: #DAD7CD;
-        border: none;
-        cursor: pointer;
-    }
+}
+.start-button{
+position: absolute;
+width: 195px;
+height: 47px;
+left: 83px;
+top: 668px;
     
+background: #344E41;
+border-radius: 50px;
+}
+.start-button a{
+position: absolute;
+width: 74px;
+height: 25px;
+left: 143px;
+top: 679px;
+    
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+color: #DAD7CD;
 }
 
-.decor1{
-    width: 100%;
-    margin: .5em auto 0;
+.covidDataContainer{
+    position: absolute;
+    width: 259px;
+    height: 383px;
+    left: 51px;
+    top: 237px;
+    
+    background: #C4C4C4;
+}
+
+.covidData h1{
+    position: absolute;
+width: 209px;
+height: 25px;
+left: 76px;
+top: 256px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #787055;
+
+}
+.covidData p{
+    position: absolute;
+    width: 207px;
+    height: 288px;
+    left: 76px;
+    top: 317px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
     text-align: center;
     
-    .decor{
-        margin-top: 2em;
-        width: 3em;
-    }
-
-}
-}
-
-.covidData{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background: #588157;
-    font-size: 40px;
-    height: 100vh;
+    color: #787055;
+    
 }
